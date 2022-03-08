@@ -7,7 +7,7 @@
 .square{
     width: 70px;
     height: 70px;
-    background-color: aqua;
+    background-color: lightgreen;
     line-height: 70px;
     vertical-align: middle;
     text-align: center;
@@ -20,4 +20,16 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.orange{
+    background-color: orange;
 }
