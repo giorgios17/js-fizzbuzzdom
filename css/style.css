@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body{
+    background-color: darkblue;
+}
+
+h1{
+    color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
 
 .square{
     width: 70px;
@@ -12,15 +22,19 @@
     line-height: 70px;
     vertical-align: middle;
     text-align: center;
+    border-radius: 10px;
 }
 
 .container{
     margin: auto;
+    margin-top: 50px;
     width: 70%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    background-color: lightsalmon;
+    border-radius: 50px;
 }
 
 .red{
