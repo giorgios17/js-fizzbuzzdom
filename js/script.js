@@ -9,3 +9,7 @@ Applica uno stile differente a seconda del valore dell'indice per i multipli di 
 Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare? Come creare nuovi elementi html e appenderli al container?
 */
+
+for (let i = 1; i <= 100; i++) {
+    console.log(i)
+}
