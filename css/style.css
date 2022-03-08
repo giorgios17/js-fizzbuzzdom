@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+.square{
+    width: 70px;
+    height: 70px;
+    background-color: aqua;
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

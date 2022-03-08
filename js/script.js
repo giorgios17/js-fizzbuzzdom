@@ -13,22 +13,27 @@ Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qual
 
 for (let i = 1; i <= 100; i++) {
 
+    const list = document.querySelector('.container');
 
     if ((i % 3 === 0) && (i % 5) === 0) {
         console.log('FizzBuzz')
+        const element = `<div class="square">FizzBuzz</div>`;
+        list.innerHTML += element;
     }
     else if (i % 3 === 0) {
         console.log('Fizz')
-
+        const element = `<div class="square">Fizz</div>`;
+        list.innerHTML += element;
     }
     else if (i % 5 === 0) {
         console.log('Buzz')
-
+        const element = `<div class="square">Buzz</div>`;
+        list.innerHTML += element;
     }
     else {
         console.log(i)
-
+        const element = `<div class="square">${i}</div>`;
+        list.innerHTML += element;
     }
-
 
 }
