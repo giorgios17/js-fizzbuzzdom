@@ -19,7 +19,6 @@ for (let i = 1; i <= 100; i++) {
         console.log('FizzBuzz')
         const element = `<div class="square red">FizzBuzz</div>`;
         list.innerHTML += element;
-
     }
     else if (i % 3 === 0) {
         console.log('Fizz')
