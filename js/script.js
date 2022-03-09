@@ -17,23 +17,23 @@ for (let i = 1; i <= 100; i++) {
 
     if ((i % 3 === 0) && (i % 5) === 0) {
         console.log('FizzBuzz')
-        const element = `<div class="square red">FizzBuzz</div>`;
+        const element = `<div class="square red click">FizzBuzz</div>`;
         square.innerHTML += element;
     }
     else if (i % 3 === 0) {
         console.log('Fizz')
-        const element = `<div class="square blue">Fizz</div>`;
+        const element = `<div class="square blue click">Fizz</div>`;
         square.innerHTML += element;
     }
     else if (i % 5 === 0) {
         console.log('Buzz')
-        const element = `<div class="square orange">Buzz</div>`;
+        const element = `<div class="square orange click">Buzz</div>`;
         square.innerHTML += element;
     }
     else {
         console.log(i)
-        const element = `<div class="square">${i}</div>`;
+        const element = `<div class="square click">${i}</div>`;
         square.innerHTML += element;
     }
-
 }
+

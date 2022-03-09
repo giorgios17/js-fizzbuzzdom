@@ -48,3 +48,7 @@ h1{
 .orange{
     background-color: orange;
 }
+
+.square:hover{
+    transform: scale(1.2);
+}
